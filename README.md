@@ -1,6 +1,6 @@
 # FindRandom
 
-[![](https://jitpack.io/v/mohamadreza7565/FindRandom.svg)](https://jitpack.io/#mohamadreza7565/FindRandom)
+[![](https://jitpack.io/v/mohamadreza7565/CBottomNav.svg)](https://jitpack.io/#mohamadreza7565/CBottomNav)
 
 
 # Gradle
