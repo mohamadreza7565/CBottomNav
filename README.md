@@ -2,6 +2,11 @@
 
 [![](https://jitpack.io/v/mohamadreza7565/CBottomNav.svg)](https://jitpack.io/#mohamadreza7565/CBottomNav)
 
+
+![alt text](https://github.com/mohamadreza7565/CBottomNav/blob/master/ScreenShot/gif_1.gif?raw=true)
+![alt text](https://github.com/mohamadreza7565/CBottomNav/blob/master/ScreenShot/gif_2.gif?raw=true)
+
+
 # Gradle
 
 ## Dependency
