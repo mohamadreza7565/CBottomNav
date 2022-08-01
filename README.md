@@ -1,4 +1,4 @@
-# FindRandom
+# CBottomNav
 
 [![](https://jitpack.io/v/mohamadreza7565/CBottomNav.svg)](https://jitpack.io/#mohamadreza7565/CBottomNav)
 
