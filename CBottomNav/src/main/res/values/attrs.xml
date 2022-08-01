@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomBottomNav">
+        <attr name="menuChildView" format="reference" />
+        <attr name="background" format="reference"/>
+        <attr name="selectedColor" format="color"/>
+        <attr name="onSelectedColor" format="color"/>
+        <attr name="badgeTextColor" format="color"/>
+        <attr name="badgeBackgroundColor" format="color"/>
+    </declare-styleable>
+
+</resources>

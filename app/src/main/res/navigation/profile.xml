@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/setting"
+    app:startDestination="@id/fragmentTwo">
+
+    <fragment
+        android:id="@+id/fragmentTwo"
+        android:name="com.ryfa.custombottomnav.FragmentTwo"
+        tools:layout="@layout/fragmnet_two"
+        android:label="FragmentTwo" />
+
+</navigation>

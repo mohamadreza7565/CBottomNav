@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/bottomNavMotionLyt"
+    app:layoutDescription="@xml/bottom_nav_motion"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        app:srcCompat="@drawable/ic_baseline_home_24"
+        android:padding="8dp"
+        android:id="@+id/ivIcon"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:scaleType="fitCenter"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvBadge"
+        android:textSize="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_badge"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        tools:text="3"
+        android:gravity="center"
+        android:layout_alignTop="@id/icon"
+        android:layout_alignStart="@id/icon"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="خانه" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
