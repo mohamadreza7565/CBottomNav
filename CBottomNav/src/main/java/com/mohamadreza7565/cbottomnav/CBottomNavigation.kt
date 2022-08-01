@@ -51,6 +51,11 @@ class CBottomNavigation(
         fun onTabClicked(item: MenuItem, reselect: Boolean)
     }
 
+    interface OnOneTabItemClickListener {
+        fun onTabClicked()
+    }
+
+
     init {
         linearLayout = LinearLayout(context)
         linearLayout!!.orientation = HORIZONTAL
@@ -95,10 +100,10 @@ class CBottomNavigation(
 
     }
 
-    fun setSelectedTab(menuId: Int, onClick: () -> Unit) {
+    fun setSelectedTab(menuId: Int, onOneItemClick: OnOneTabItemClickListener) {
         val tabItem = findViewWithTag<View>(menuId)
         tabItem.setOnClickListener {
-            onClick.invoke()
+            onOneItemClick.onTabClicked()
         }
     }
 
@@ -126,7 +131,7 @@ class CBottomNavigation(
                 1f,
                 context.resources.getColor(textShadowColor)
             )
-            if (textSize!=0)
+            if (textSize != 0)
                 title.textSize = textSize.toFloat()
 
             val badge = (inflate.findViewById(R.id.tvBadge) as TextView)
