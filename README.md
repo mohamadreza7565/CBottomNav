@@ -61,9 +61,12 @@ dependencies {
 
 ```xml
 
-<com.mohamadreza7565.cbottomnav.CBottomNavigation android:id="@+id/activityHome_bottomBar"
-    android:layout_width="match_parent" android:layout_height="75dp"
-    android:layout_alignParentBottom="true" app:menuChildView="@menu/menu" />
+<com.mohamadreza7565.cbottomnav.CBottomNavigation 
+    android:id="@+id/activityHome_bottomBar"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:layout_alignParentBottom="true"
+    app:menuChildView="@menu/menu" />
 
 ```
 
