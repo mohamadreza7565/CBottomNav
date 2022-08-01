@@ -4,7 +4,7 @@
 
 
 ![alt text](https://github.com/mohamadreza7565/CBottomNav/blob/master/ScreenShot/gif_1.gif?raw=true)
-![alt text](https://github.com/mohamadreza7565/CBottomNav/blob/master/ScreenShot/gif_2.gif?raw=true)
+![alt text](https://github.com/mohamadreza7565/CBottomNav/blob/master/ScreenShot/gif_3.gif?raw=true)
 
 
 # Gradle
